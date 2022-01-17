@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+    <h2>Đăng ký du lịch</h2>
+    <form action="" method="get">
+        <table border="1">
+            <tr>
+                <th>Họ và tên</th>
+                <td><input type="text" name="name" id="" size="45"/></td>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <td><input type="text" name="address" id="" size="40" /></td>
+            </tr>
+            <tr>
+                <th>Phone number</th>
+                <td><input type="number" name="phone" id="" /></td>
+            </tr>
+            <tr>
+                <th>Khách Việt Nam</th>
+                <td><input type="checkbox" name="" id="" value="" /></td>
+            </tr>
+            <tr>
+                <th>Chọn tour</th>
+                <td>
+                    <select name="tour" id="tour">
+                        <optgroup label="Miền Bắc">
+                            <option value="NT-ĐL">Nha Trang - Đà Lạt</option>
+                            <option value="BMT-KT-GL">
+                                Buôn Mê Thuột - Gia Lai - Komtum
+                            </option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phương tiện</th>
+                <td>
+                    <input type="radio" name="phuong-tien" id="may-bay" value="may-bay" />
+                    <label for="may-bay"> Máy bay</label>
+                    <input type="radio" name="phuong-tien" id="o-to" value="o-to" />
+                    <label for="o-to"> Ô tô</label>
+                </td>
+            </tr>
+           <tr>
+               <td colspan="2"> 
+                <fieldset style="width:350px; height:45px; margin:0 auto; border: 1px solid purple">
+                    <legend>Chọn sản phẩm tham gia</legend>
+                    <label for="adult"> Người lớn</label>
+                    <input type="text" name="adult" id="adult" maxlength="1" size="1"/>
+                    <label for="chilrd"> Trẻ em</label>
+                    <input type="text" name="child" id="child" maxlength="1" size="1" />
+                </fieldset>
+               </td>
+           </tr>
+            <tr>
+                <th>Ghi chú thêm</th>
+                <td>
+                    <textarea name="note" id="note" cols="20" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="" id="" style="text-align:center">
+                        <input type="submit" value="Đăng ký" onclick="signIn()" class="submit-btn">
+                       
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center; color: red" >
+                    <p id="success" > </p>
+                </td>
+            </tr>
+        </table>
+
+
+
+    </form>
+</body>
+
+<script type="text/javascript">
+
+    function signIn(){
+
+        document.getElementById('success').innerText = "Bạn đã đăng kí thành công!!!"
+     
+    }
+</script>
+</html>

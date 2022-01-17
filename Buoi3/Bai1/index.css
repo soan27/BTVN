@@ -1,0 +1,40 @@
+h2 {
+  color: #ff0000;
+  text-align: center;
+  font-size: 50px;
+}
+body {
+  font-size: 20px;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+}
+
+.image {
+  float: left;
+  margin-right: 100px;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.content ol li span {
+  background-color: #ff0000;
+  color: white;
+}
+
+.content-top {
+  padding-left: 480px;
+}
+
+a {
+  text-decoration: none;
+  color: #0219ff;
+}
+
+.ft {
+  padding-top: 10px;
+}
