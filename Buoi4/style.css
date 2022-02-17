@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #33363b;
+    color: #e7e7e6;
+    padding: 0.7rem 2rem;
+    height: 70px;
+    border-bottom: 1px solid #17a2b8;
+    width: 100%;
+    opacity: 0.9;
+    /* position: fixed; */
+    top: 0; /*Nằm trên cùng*/
+    z-index: 2;
+    
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+.navbar h2:hover{
+    color: #17a2b8;
+}
+
+.navbar ul li {
+    display: inline-block;
+    font-size: 1.0rem;
+    padding-right: 1rem;
+}
+
+.navbar ul li a:hover{
+    color: #17a2b8;
+}
+
+
+.landing {
+    /* position: relative; */
+    background-image: url(./image/showcase.jpg);
+    height: 90vh;          
+    width: 100%;
+    opacity: 2.0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.landing .landing-inner {
+    color: white;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.landing .landing-inner h1{
+    font-size: 5rem;
+}
+.content{
+    font-size: 1.6rem;
+}
+
+.landing .landing-inner ul li {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+
+.button .btn-primary{
+    background: #17a2b8;
+    padding: 0.5rem 1.4rem;
+    border-radius: 0 !important;
+    border-color:  #17a2b8;
+    margin-top: 0.9rem;
+}
+.btn-light{
+    padding: 0.5rem 1.4rem;
+    border-radius: 0 !important;
+    /* margin-top: 0.9rem; */
+}
+
+.landing .landing-inner button a:first-child{
+    background-color: #17a2b8;
+}
+
+.landing .landing-inner button a:last-child{
+    background-color: white;
+}
+
+.landing .landing-inner button a:last-child a:last-child{
+    color: black;
+}
+
+.btn-login{
+    margin-top: 15px;
+}
+
+/* login */
+
+.alert{
+    margin-top: 3rem;
+    border-radius: 0 !important;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+h1{
+    color: #17a2b8;
+    font-size: 3.2rem;
+}
+
+.icon-signIn{
+    font-size: 1.7rem;
+}
+
+/* form */
+.form .form-group input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.btn-primary{
+    border-radius: 0 !important;
+    padding: 0.5rem 1.4rem;
+    background-color: #17a2b8;
+    border-color:  #17a2b8;
+}
+
+.btn-primary:hover{
+    background-color: #1ebfd8;
+    border-color: #1ebfd8;
+}
+
+.p-1{
+    margin-top: 1.0rem;
+    font-size: 1.1rem;
+}
+
+.p-1 a{
+    color: #17a2b8;
+}
+
+/* Sign-up */
+
+.h1-signUp, .h1-dashboard, .h1-add-profile{
+    margin-top: 3rem;
+}
+
+/* profiles */
+
+.profiles h1{
+    margin-top: 1.5rem;
+}
+.icon-profiles{
+    margin-top: 1.0rem;
+    font-size: 1.5rem;
+}
+.content-profile{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    align-items: center;
+    border: 1px solid rgb(219, 207, 207);
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.content-profile img{
+    border-radius: 50%;
+}
+
+.content-profile .profile{
+    margin-left: -1.1rem;
+    font-size: 1.1rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.text-primary {
+    color:  #17a2b8 !important;
+    font-size: 1.1rem;
+}
+
+/* profile */
+
+.btn-profile{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.info-profile{
+    background-color: #17a2b8;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+
+.info-profile img{
+    border-radius: 50%;
+}
+
+.info-profile h2{
+    font-size: 3.0rem;
+    margin-top: 0.7rem;
+}
+
+.info-profile .p-1-profile{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.info-profile .p-2-profile{
+    font-size: 1.2rem;
+}
+
+.info-profile ul li {
+    display: inline-block;
+    font-size: 2.0rem;
+    padding-right: 11px;
+}
+
+.info-profile ul li:hover{
+    color: black;
+}
+
+.profile-about{
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.profile-about h2{
+    text-align: center;
+    color: #17a2b8;
+}
+
+.profile-about p {
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.profile-about ul li {
+    display: inline-block;
+}
+
+.text-1-primary{
+    color: black;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.exp-edu{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.experience , .education{
+    border: 1px solid #ccc;
+    padding: 40px;
+}
+
+.exp-edu .experience h2, .education h2{
+    color: #17a2b8;
+    padding-bottom: 15px;
+}
+
+.exp-edu p {
+    font-size: 1.0rem;
+}
+
+.github .repo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.badge{
+    display: block;
+    border-radius: 0 !important;
+    text-align: center;
+}
+
+.github .repo div ul li {
+    text-align: center;
+}
+.badge-primary{
+    background-color: #17a2b8;
+    margin-bottom: 7px;
+    height: 25px;
+}
+.badge-dark{
+    height: 25px;
+}
+
+.badge-light{
+    background-color: #f4f4f4;
+    margin-top: 7px;
+    height: 25px;
+    border: 1px solid #ccc;
+}
+
+.repo{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.repo h4{
+    color: #17a2b8  ;
+}
+
+.repo p{
+    font-size: 1.2rem;
+}
+
+.github h3{
+    color: #17a2b8;
+    padding: 30px 0px;
+}
+
+/* dashboard */
+
+.p-2{
+    font-size: 1.7rem;
+    margin-bottom: 0px !important;
+}
+
+.dash-buttons{
+    margin-bottom: 20px;
+}
+
+.dash-buttons a{
+    background-color: #f4f4f4;
+}
+
+.dash-buttons a i {
+    color: #17a2b8;
+}
+
+.h2-dash{
+    padding: 20px;
+    font-size: 1.9rem
+}
+
+.table-1{
+    width: 70%;
+}
+
+.table-2 {
+    width: 50%;
+}
+.table th {
+    background-color: #f4f4f4;
+    border-right: 2px solid #fff;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.table td {
+    border-top: 0px;
+}
+
+.btn-danger{
+    border-radius: 0 !important;
+}
+
+.btn-del-account{
+    margin-bottom: 50px;
+}
+
+
+/* create profiles */
+
+.form-group input, .form-group select {
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+}
+
+.form-group textarea {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.form-text{
+    color: #888;
+}
+
+.social-input{
+    display: flex;
+}
+
+.social-input i {
+    font-size: 2.0rem;
+    width: 50px;
+}
+
+.icon-twitter{
+    color: #38a1f3;
+}
+
+.icon-fb{
+    color: #3b5998;
+}
+
+.icon-yt{
+    color: #c4302b;
+}
+
+.icon-in{
+    color: #0077b5;
+}
+
+.icon-instagram{
+    color: #3f729d;
+}
+
+.add-social{
+    margin-bottom: 20px;
+}
+
+.add-social button{
+    background-color: #f4f4f4;
+}
+
+.add-social span{
+    padding: 20px;
+}
+
+.footer-add-exp{
+    padding-bottom: 50px;
+}
+
+.btn-go-back{
+    background-color: #f4f4f4;
+    height: 45px;
+}
+
+/* posts */
+
+.h4-1{
+    background-color: #17a2b8;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-dark{
+    border-radius: 0 !important;
+}
+
+.btn-submit-posts{
+    padding: 7px 20px;
+    margin-bottom: 40px;
+}
+
+.detail-posts, .detail-post{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.detail-posts .image, .detail-post .image{
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.detail-posts .image img, .detail-post .image img{
+    border-radius: 50%;
+    height: 120px;
+}
+
+.detail-posts .image p, .detail-post .image p {
+    margin-top: 10px;
+    text-align: center;
+    color: #17a2b8;
+    font-size: 1.2rem;
+}
+
+.content-posts p:first-child, .content-post p:first-child {
+    font-size: 1.1rem;
+}
+
+.content-posts p:nth-child(2) {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.comment-count{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0.1rem 0.2rem;
+    color: #17a2b8;
+    font-size: 0.8rem;
+}
+
+
+/* post */
+
+.btn-post{
+    margin: 40px  0 30px 0;
+    background-color: #f4f4f4;
+    
+}
+
+.detail-post {
+    display: flex;
+}
+
+
+.detail-post {
+    height: 200px;
+}

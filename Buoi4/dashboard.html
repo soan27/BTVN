@@ -1,0 +1,90 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To The Developer Connector</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h2><i class="fas fa-code"></i> DevConnector</h2>
+      <ul>
+        <li><a href="profiles.html">Developers</a></li>
+        <li><a href="posts.html">Posts</a></li>
+        <li>
+            |
+            <a href=""><i class="fas fa-user"></i> Dashboard</a>
+        </li>
+        <li>
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+      </ul>
+    </div>
+    <div class="container">
+        <h1 class="h1-dashboard">Dashboard</h1>
+        <p class="p-2"><i class="fas fa-user"></i> Welcome John Doe</p>
+        <div class="dash-buttons">
+            <a href="create-profiles.html" class="btn btn-light"><i class="far fa-user-circle"></i> Edit Profile</a>
+            <a href="add-experience.html" class="btn btn-light"><i class="fab fa-black-tie"></i> Add Experience</a>
+            <a href="add-education.html" class="btn btn-light"><i class="fas fa-graduation-cap"></i> Add Education</a>
+        </div>
+        <h2 class="h2-dash">Experience Credentials</h2>
+        <table  class="table table-1">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Title</th>
+                    <th>Years</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tech Guy Web Solutions</td>
+                    <td>Senior Developer</td>
+                    <td>02-03-2009 - 01-02-2014</td>
+                    <td><button class="btn btn-danger">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>Traversy Media</td>
+                    <td>Instructor & Developer</td>
+                    <td>02-03-2015 - Now</td>
+                    <td><button class="btn btn-danger">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="h2-dash">Education Credentials</h2>
+        <table class="table table-2">
+            <thead>
+                <th>School</th>
+                <th>Degree</th>
+                <th>Years</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Northern Essex</td>
+                    <td>Associates</td>
+                    <td>02-03-2017 - 01-02-2009</td>
+                    <td>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn-del-account btn btn-danger"><i class="fas fa-user"></i>Delete My Account</button>
+    </div>
+</body>
+</html>
