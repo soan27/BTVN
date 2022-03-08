@@ -17,3 +17,8 @@ function bubbleSort(a, n) {
 
 bubbleSort(a, a.length);
 console.log(a);
+
+let str = 'Honda Kiyoshi Suzuki';
+let special2 = '$`Chis';
+console.log(str.replace('Kiyoshi', special2));
+//> Honda Honda Chis Suzuki

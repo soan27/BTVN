@@ -22,6 +22,7 @@ function isPrime(a) {
 
 
 let b = [];
+
 for (let j = 0; j < a.length; j++) {
     if (isPrime(a[j])) {
         b.push(a[j]);

@@ -17,8 +17,9 @@ function FindNumberInArray(arr) {
     }
     let maxCount = Math.max(...b);
     let index = b.indexOf(maxCount);
-
+    console.log(a);
     return { number: a[index], count: maxCount };
 }
+
 
 console.log(FindNumberInArray(input));

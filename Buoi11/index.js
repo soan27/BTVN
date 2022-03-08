@@ -51,3 +51,9 @@ let sumAgeAvg = data.reduce((accumalator, element) => {
 }, 0);
 
 console.log(sumAgeAvg / data.length);
+
+
+let str = 'Honda Kiyoshi Suzuki';
+let special2 = '$`Chis';
+console.log(str.replace('Kiyoshi', special2));
+//> Honda Honda Chis Suzuki
