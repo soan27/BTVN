@@ -140,6 +140,9 @@ while (yourchoise != 10) {
         case 10:
             console.log("Exit");
             break;
+        default:
+            console.log("Bạn phải chọn 1 số trong menu");
+            break;
     }
     showMenu();
     yourchoise = readlineSync.question('YourChoise? ');
