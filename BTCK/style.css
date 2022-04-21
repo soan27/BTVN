@@ -1,0 +1,15 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items-navbar ul{
+    display: flex;
+    gap: 20;
+}
